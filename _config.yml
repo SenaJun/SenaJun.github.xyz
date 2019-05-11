@@ -5,9 +5,9 @@ header-img: img/65497494_p0.png
 email: adsjkqwsad@gmail.com
 description: "大切な人と、何時かまだ巡り会えますように。"
 keyword: "SenaJun, ブログ, 順の理想乡, 理想郷, 理想乡, 瀬名順, 濑名顺"
-url: "http://SenaJun.github.xyz"          # your host, for absolute URL
+url: "http://SenaJun.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/SenaJun/SenaJun.github.xyz.git" # you code repository
+github_repo: "https://github.com/SenaJun/SenaJun.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -64,7 +64,7 @@ gitalk:
   enable: false    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: SenaJun.github.xyz    #仓库名称
+  repo: SenaJun.github.io    #仓库名称
   owner: SenaJun    #github用户名
   admin: SenaJun
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
