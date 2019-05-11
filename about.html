@@ -1,0 +1,86 @@
+---
+layout: page
+title: "About"
+description: "順の理想郷へようこそ<br>欢迎来到顺的理想乡"
+header-img: "img/post-bg-rwd.png"
+---
+
+<!-- Language Selector -->
+<!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+</select> -->
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+
+    <!--copied from markdown -->
+    <blockquote><p>大切な人と、<br>
+    何時かまだ巡り会えますように。</p></blockquote>
+    
+    
+    <p>欢迎您来到<strong>瀬名順（SenaJun）</strong>，一个无比咸鱼，啥都不会的辣鸡社畜一只。</p>
+
+    <p>开始写 Blog 的契机，非常单纯，只是想将自己学到，用到的一下教程和操作，总结并写在这里。可以的话，也能够分享给大家。</p>
+
+    <p>这里只是因为我并无经验，也是测试我能否坚持写下去而创建的一个 GitHub Blog 主页。</p>
+
+    <p>当然，可以的话我也想将这里，迁移到自己的域名以及自己购买的服务器之下。</p>
+ 
+    
+    <h5>Talks</h5>
+
+    <ul>
+        <li><a href="https://github.com/SenaJun">GitHub</a></li>
+        <li><a href="https://twitter.com/SenaJun_CN">Twitter</a></li>
+        <li><a href="http://t.me/SenaJun/">Telegram</a></li>
+    </ul>
+</div>
+
+
+<!-- Gitalk 评论 start  -->
+{% if site.gitalk.enable %}
+<!-- Gitalk link  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+    <script type="text/javascript">
+    var gitalk = new Gitalk({
+    clientID: '{{site.gitalk.clientID}}',
+    clientSecret: '{{site.gitalk.clientSecret}}',
+    repo: '{{site.gitalk.repo}}',
+    owner: '{{site.gitalk.owner}}',
+    admin: ['{{site.gitalk.admin}}'],
+    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+    id: 'about',
+    });
+    gitalk.render('gitalk-container');
+</script>
+{% endif %}
+<!-- Gitalk end -->
+
+ <!-- disqus 评论框 start  -->
+{% if site.disqus.enable %}
+
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus.username}}";
+    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
+
