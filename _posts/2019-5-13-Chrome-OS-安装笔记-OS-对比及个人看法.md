@@ -10,9 +10,6 @@ tags:
     - Chrome OS
     - 安装笔记
     - 个人看法
-    - Fyde OS
-    - Chromium OS Build
-    - CloudReady OS
 ---
 
 # Chrome OS 安装笔记 - OS 对比及个人看法
