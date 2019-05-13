@@ -3,7 +3,7 @@ layout:     post
 title:      Chrome OS 安装笔记
 subtitle:   OS 对比及个人看法
 date:       2019-05-13
-author:     BY
+author:     SenaJun
 header-img: img/Chrome_OS_Install_Note/Fyde_OS_Lock.png
 catalog: true
 tags:
