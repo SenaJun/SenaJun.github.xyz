@@ -88,7 +88,7 @@ CR OS 在设置中有一项，有一项 **Linux（测试版）** 的设置，该
 **安装后，可在你的 Chrome OS 设备上运行 Linux 工具、编辑器和 IDE**
 ![Chrome OS Linux 工具](https://raw.githubusercontent.com/SenaJun/SenaJun.github.io/master/img/Chrome_OS_Install_Note/Linux_Tools.jpg "Chrome OS Linux 工具")
 
-安装后，机会在你的设备中添加 Linux 终端，并单独为 Linux 做了一个分区
+安装后，即会在你的设备中添加 Linux 终端，并单独为 Linux 做了一个分区
 
 ![Linux 终端](https://raw.githubusercontent.com/SenaJun/SenaJun.github.io/master/img/Chrome_OS_Install_Note/Linux_Terminal.png "Linux 终端")
 
