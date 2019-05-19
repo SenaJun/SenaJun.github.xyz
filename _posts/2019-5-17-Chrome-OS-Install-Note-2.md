@@ -14,7 +14,7 @@ tags:
 
 # Chrome 安装笔记 - 安装过程及资源分享
 
-### 前言
+## 前言
 
 本来的打算是先写这一篇的，但是发现因为图片、素材和一些其他准备好像有点少，就先写了 [**OS 对比及个人看法**](https://senajun.github.io/2019/05/13/Chrome-OS-Install-Note-1/ "**OS 对比及个人看法**")
 但是相信看完了 **OS 对比和个人看法** 之后再来看这一篇的各位，已经对 **Chrome OS** 有了一定程度的认识以及一些看法，
@@ -25,7 +25,7 @@ tags:
 
 ## 注意事项
 
-### 数据备份
+#### 数据备份
 
 数据备份这点肯定不需要多说了，大家都懂。
 但是这里要做一个补充说明，在体验 Chrome OS 的时候，我推荐大家要有两台电脑。
@@ -37,7 +37,7 @@ tags:
 
 此时多一台不使用的备用/老旧设备，就可以增加你的**容错率**，**以免操作失误导致整个硬盘数据丢失**
 
-### 关于 U盘 刻录及引导
+#### 关于 U盘 刻录及引导
 
 这里针对 **Chrome OS 的 U盘刻录** 说一下注意事项
 
@@ -48,7 +48,7 @@ Chrome OS 在刻录完成之后，**会将 U盘 跟我们的 C盘，也就是系
 **如：EFI 系统分区、System 分区、Recovery 分区**
 有些电脑应该会在 U盘 刻录完成之后，弹出数个 **请格式化磁盘** ，无视即可，千万不要去点击格式化，不然又要重新刻录了。
 
-### 关于鼠标 & 触摸板
+#### 关于鼠标 & 触摸板
 
 这一项，若你是用台式机进行体验 Chrome OS，可以 Pass 掉，直接看下一项
 
@@ -62,7 +62,7 @@ Chrome OS 对笔记本电脑的触摸板兼容性有一定的要求，这里需�
 
 ## 前期准备
 
-### 必要工具
+#### 必要工具
 
 > 1. 最少一台电脑
 > 2. 一个最少 8G 的 U盘
@@ -71,7 +71,7 @@ Chrome OS 对笔记本电脑的触摸板兼容性有一定的要求，这里需�
 > 5. BalenaEtcher 刻录工具
 > 6. 一台已 Root Android 设备 or 一台可以配置 SSR 的路由器，**若你要安装 Fyde OS 请无视**
 
-### 下载镜像文件
+#### 下载镜像文件
 
 我所测试的 OS 一共有3个：[Chromium OS Biuld](https://chromium.arnoldthebat.co.uk/index.php "Chromium OS Biuld")、[CloudReady OS](https://www.neverware.com/freedownload "CloudReady OS")、[Fyde OS](https://fydeos.com/download "Fyde OS")
 
@@ -98,7 +98,7 @@ Chrome OS 对笔记本电脑的触摸板兼容性有一定的要求，这里需�
 ![Chromium OS Build 下载页](https://github.com/SenaJun/SenaJun.github.io/blob/master/img/Chrome_OS_Install_Note/Chromium_OS_Download.jpg?raw=true "Chromium OS Build 下载页")
 ![Chromium OS Biuld 版本](https://raw.githubusercontent.com/SenaJun/SenaJun.github.io/master/img/Chrome_OS_Install_Note/Chromium_OS_Version.jpg "Chromium OS Biuld 版本")
 
-### 关于 U盘 格式化
+#### 关于 U盘 格式化
 
 这里关于 U盘 格式化特别说明一下，在刻录镜像之前，建议使用 `CMD` 调出 `Diskpart` 对指定硬盘进行 `Clean` 清除。
 
@@ -148,7 +148,7 @@ Chrome OS 对笔记本电脑的触摸板兼容性有一定的要求，这里需�
 
 **注意：** 使用完后，必须使用该方法对磁盘进行清除并分区设置卷标，否则设备会无法使用
 
-### 下载并使用刻录工具
+#### 下载并使用刻录工具
 
 我一共使用了 3 种镜像刻录工具：[BalenaEtcher](https://www.balena.io/etcher/ "BalenaEtcher")、[Win32 Desk Imager](https://sourceforge.net/projects/win32diskimager/ "Win32 Desk Imager")、[Rufus](https://rufus.ie/ "Rufus")
 
@@ -178,7 +178,7 @@ Chrome OS 需要将 `Bios` 中的 `Secure Boot` 设置为 `关闭（Disabled）`
 
 ## 进入系统
 
-### 初步进入系统
+#### 初步进入系统
 
 先将刻录好的 U盘 介质插入电脑后，开机
 在进入主板自检画面按 `F12` 进入我们的 **Boot 开机启动项**（也就是我们常说的开机第一屏，主板 Logo 画面）
@@ -189,7 +189,7 @@ Chrome OS 需要将 `Bios` 中的 `Secure Boot` 设置为 `关闭（Disabled）`
 
 ![UEFI Boot](https://raw.githubusercontent.com/SenaJun/SenaJun.github.io/master/img/Chrome_OS_Install_Note/UEFI_BOOT.jpg "UEFI Boot")
 
-### 进入系统引导设置页面
+#### 进入系统引导设置页面
 
 **这一步我就不给截图了**
 
@@ -213,7 +213,7 @@ Chrome OS 需要将 `Bios` 中的 `Secure Boot` 设置为 `关闭（Disabled）`
 
 ## 安装至硬盘
 
-### Chrome OS 命令行终端安装
+#### Chrome OS 命令行终端安装
 
 **该操作，在系统设置引导页也可以执行**
 **此方法 3 个 OS 通用**
@@ -243,7 +243,7 @@ Chrome OS 需要将 `Bios` 中的 `Secure Boot` 设置为 `关闭（Disabled）`
 > Installation to '/dev/sda' complete.
 > Please shutdown, remove the USB device, cross your fingers, and reboot.
 
-### 安装器双系统安装
+#### 安装器双系统安装
 
 **关于双系统安装，似乎使用 命令行终端安装 也是可行的，但是因为我没有尝试，也就不写出来了**
 **等有空尝试了之后，会写出来供大家参考的**
