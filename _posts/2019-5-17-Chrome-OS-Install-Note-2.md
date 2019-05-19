@@ -232,9 +232,9 @@ Chrome OS 需要将 `Bios` 中的 `Secure Boot` 设置为 `关闭（Disabled）`
 
 输入后，出现 3 条提示以及一条 `Are you sure (y/n)?` 输入 `y` 即开始执行安装脚本
 
-> respect the privacy of others
-> think before you type
-> with great power comes great responsibility
+> - respect the privacy of others
+> - think before you type
+> - with great power comes great responsibility
 
 什么意思自行理解了ww
 
