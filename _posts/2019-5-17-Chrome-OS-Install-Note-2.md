@@ -163,7 +163,7 @@ Chrome OS 对笔记本电脑的触摸板兼容性有一定的要求，这里需�
 
 ![Etcher 刻录](https://raw.githubusercontent.com/SenaJun/SenaJun.github.io/master/img/Chrome_OS_Install_Note/Etcher_Device_Flash.png "Etcher 刻录")
 
-### 设置 Bios
+#### 设置 Bios
 
 这里我们需要设置 U盘介质的引导项，我们首先需要将 **Bios** 中的 **F12 Boot** 打开
 
