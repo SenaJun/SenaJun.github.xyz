@@ -71,7 +71,10 @@ Chrome OS 对笔记本电脑的触摸板兼容性有一定的要求，这里需�
 
 ![CloudReady OS 下载页](https://raw.githubusercontent.com/SenaJun/SenaJun.github.io/master/img/Chrome_OS_Install_Note/CloudReady_OS_Download.jpg "CloudReady OS 下载页")
 
-**Chromium OS Build：** [Chromium OS Build 下载页](https://chromium.arnoldthebat.co.uk/index.php?dir=./ "Chromium OS Build 下载页")，进入下载页，有三个选项：**Daily、Special、Weekly（日更版、特别版、周更版）**，这里按照需求选择，我选择的是 **Weekly 周更版** ，进入分支文件夹后，你可能会看到一堆文件，我们**看开头的代号**即可。
+**Chromium OS Build：** [Chromium OS Build 下载页](https://chromium.arnoldthebat.co.uk/index.php?dir=./ "Chromium OS Build 下载页")，进入下载页
+会有三个选项：**Daily、Special、Weekly（日更版、特别版、周更版）**
+这里按照需求选择，我选择的是 **Weekly 周更版** 
+进入分支文件夹后，你可能会看到一堆文件，我们**看开头的代号**即可。
 一共有三个版本：**Camd64OS（64位镜像）、CARMOS（ARM版镜像）、Cx86OS（32位版镜像）**
 我们直接找最新的下载 **Camd64OS 64位镜像** 即可，因为是 **.7z** 文件，我们需要将 **.img** 文件给**解压出来**
 
