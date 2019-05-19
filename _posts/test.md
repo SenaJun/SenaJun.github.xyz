@@ -167,6 +167,3 @@ Chrome OS 需要将 `Bios` 中的 `Secure Boot` 设置为 `关闭（Disabled）`
 启动后会看到一个选择画面，Fyde OS 的为 `GNU GRUB version 2.02`，这里的选择需要根据你的**CPU芯片**进行选择，一般情况下**选择第一个即可**，随后就会看到 Chrome OS 的 Logo，到这里，就表明我们已经进入系统了。
 
 ![UEFI Boot](https://raw.githubusercontent.com/SenaJun/SenaJun.github.io/master/img/Chrome_OS_Install_Note/UEFI_BOOT.jpg "UEFI Boot")
-
-
-
